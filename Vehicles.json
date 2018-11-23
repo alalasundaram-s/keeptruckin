@@ -32,11 +32,45 @@
           "role": "driver"
         }
       }
+    },
+    {
+      "vehicle": {
+        "id": 23,
+        "company_id": 5,
+        "number": "Demo Vehicle 2",
+        "status": "active",
+        "ifta": true,
+        "vin": "WP0AB2966NS458670",
+        "make": "Demo",
+        "model": "Vehicle",
+        "year": "2016",
+        "license_plate_state": "CA",
+        "license_plate_number": "5M37251",
+        "metric_units": false,
+        "fuel_type": "diesel",
+        "prevent_auto_odometer_entry": false,
+        "eld_device": {
+          "id": 3,
+          "identifier": "000074802542164638439715893970",
+          "model": "lbb-1"
+        },
+        "current_driver": {
+          "id": 12,
+          "first_name": "Demo 2",
+          "last_name": "Driver",
+          "username": "demo_driver",
+          "email": null,
+          "driver_company_id": null,
+          "status": "active",
+          "role": "driver"
+        }
+      }
     }
   ],
+  
   "pagination": {
     "per_page": 100,
     "page_no": 1,
-    "total": 1
+    "total": 2
   }
 }
