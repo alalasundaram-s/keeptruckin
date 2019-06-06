@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "user": {
+        "duty_status": "on_duty",
+        "id": 11,
+        "first_name": "2",
+        "last_name": "Fo2",
+        "username": null,
+        "email": "5706204b3c84@keeptruckin.com",
+        "driver_company_id": null,
+        "status": "active",
+        "role": "driver",
+        "available_time": {
+          "cycle": 214800,
+          "shift": 49200,
+          "drive": 39600,
+          "break": 27600
+        },
+        "recap": {
+          "on_duty_duration": [
+            {
+              "date": "2016-02-15",
+              "duration": 1200.0
+            },
+            {
+              "date": "2016-02-09",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-10",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-11",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-12",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-13",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-14",
+              "duration": 0
+            }
+          ],
+          "driving_duration": [
+            {
+              "date": "2016-02-09",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-10",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-11",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-12",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-13",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-14",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-15",
+              "duration": 0
+            }
+          ],
+          "seconds_available": 216000,
+          "seconds_tomorrow": 214800
+        },
+        "last_hos_status": {
+          "status": "on_duty",
+          "time": "2016-02-15T13:40:00Z"
+        },
+        "last_cycle_reset": null
+      }
+    },
+    {
+      "user": {
+        "duty_status": "off_duty",
+        "id": 13,
+        "first_name": "2",
+        "last_name": "Fo3",
+        "username": null,
+        "email": "ff8bd3e205eb@keeptruckin.com",
+        "driver_company_id": null,
+        "status": "active",
+        "role": "driver",
+        "available_time": {
+          "cycle": 216000,
+          "shift": 50400,
+          "drive": 39600,
+          "break": 28800
+        },
+        "recap": {
+          "on_duty_duration": [
+            {
+              "date": "2016-02-09",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-10",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-11",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-12",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-13",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-14",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-15",
+              "duration": 0
+            }
+          ],
+          "driving_duration": [
+            {
+              "date": "2016-02-09",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-10",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-11",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-12",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-13",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-14",
+              "duration": 0
+            },
+            {
+              "date": "2016-02-15",
+              "duration": 0
+            }
+          ],
+          "seconds_available": 216000,
+          "seconds_tomorrow": 216000
+        },
+        "last_hos_status": null,
+        "last_cycle_reset": {
+          "type": "34_hour",
+          "start_time": "2016-02-14T04:00:00Z",
+          "end_time": "2016-02-15T14:00:00Z"
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "per_page": 25,
+    "page_no": 1,
+    "total": 2
+  }
+}
